@@ -131,7 +131,7 @@ runs:
         ls duerrsimon
         pwd
         ls
-        python ${GITHUB_ACTION_PATH}remove-solutions.py
+        python ${GITHUB_ACTION_PATH}/remove-solutions.py
     - name: Copy out source files into target
       shell: bash
       run: |
