@@ -1,11 +1,15 @@
-Repo Selective Sync and removal of solutions in Jupyter Notebooks
-===================
+# Repo Selective Sync and removal of solutions in Jupyter Notebooks
 
 Automatically synchronize target from source repos by specifying what to copy.
 
 Compared with other actions devoted to synching repos, this action has been designed
 specifically to allow for **publishing a subset of files** stored within a
 **private repository** into a **public repository**.
+
+Solutions can be removed in two ways: 
+- in jupyter notebooks cells tagged with `solution` are excluded
+- you can use `remove_after_copy` to match solution files that should be removed (e.g all
+  `*_instructor.pdf` files
 
 
 ## Installation
@@ -106,7 +110,6 @@ target repository.
 
 
 ## Maintainers
-This action was orginally created by:
-<img src="https://github.com/pattacini.png" width="40">](https://github.com/pattacini) [@pattacini](https://github.com/pattacini) 
+This action was orginally created by [@pattacini](https://github.com/pattacini) 
 
-Modifications to allow for removing solutions by [@duerrsimon](https://github.com/duerrsimon)
+Modifications to allow for removing solutions in Jupyter cells by [@duerrsimon](https://github.com/duerrsimon)
