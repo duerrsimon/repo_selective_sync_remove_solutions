@@ -1,6 +1,6 @@
-name: 'Repo Selective Sync'
-description: 'Automatically synchronize target from source repos by specifying what to copy'
-author: 'Ugo Pattacini'
+name: 'Repo Selective Sync + Delete of tagged solutions in *.ipynb'
+description: 'Automatically synchronize target from source repos by specifying what to copy, which files to remove and removing tagged cells.'
+author: 'Ugo Pattacini/Simon Duerr'
 branding:
   icon: 'share'
   color: 'blue'
