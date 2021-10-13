@@ -32,7 +32,7 @@ jobs:
     name: "Publish"
     runs-on: 'ubuntu-latest'
     steps:
-    - uses: duerrsimon/gh-action-repo-selective-sync-ipynb-solutions@v1.0.0
+    - uses: duerrsimon/repo_selective_sync_remove_solutions@v1.0.0
       with:
         recipe-file: '.publish/recipe.yml'
         token-source: ${{ secrets.GITHUB_TOKEN }}
