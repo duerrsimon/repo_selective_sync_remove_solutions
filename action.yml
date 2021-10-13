@@ -127,11 +127,11 @@ runs:
     - name: Delete solutions
       shell: bash
       run: |
-        ls /github/workspace/
+        ls $GITHUB_ACTION_PATH
         ls duerrsimon
         pwd
         ls
-        python /github/workspace/remove-solutions.py
+        python ${GITHUB_ACTION_PATH}remove-solutions.py
     - name: Copy out source files into target
       shell: bash
       run: |
